@@ -1,0 +1,41 @@
+html {
+	font-size: 10px;
+}
+body {
+	margin: 0;
+	font-size: 1.6rem;
+}
+.container {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: orange;
+	& > .container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__title {
+		color: #fff;
+		padding: 1rem 0;
+		font-weight: 600;
+	}
+
+}
+.find-video-form {
+	position: relative;
+	&__input {
+		border: none;
+		padding: 1rem;
+		border-radius: 1rem;
+	}
+	&__button {
+		background: transparent;
+		border: navajowhite;
+    position: absolute;
+    right: 0;
+    top: 1rem;
+	}
+}
